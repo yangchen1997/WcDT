@@ -116,14 +116,14 @@ task config:
 
 ### Qualitative Results
 ground truth:
-![Alt text 1](https://github.com/yangchen1997/WcDT/blob/main/qualitative_results/0_ground_truth.gif) 
+![Alt text 1](qualitative_results/0_ground_truth.gif) 
 WcDT-128 result:
-![Alt text 2](https://github.com/yangchen1997/WcDT/blob/main/qualitative_results/0_model_output.gif)
+![Alt text 2](qualitative_results/0_model_output.gif)
 
 ground truth:
-![Alt text 1](https://github.com/yangchen1997/WcDT/blob/main/qualitative_results/1_ground_truth.gif) 
+![Alt text 1](qualitative_results/1_ground_truth.gif) 
 WcDT-128 result:
-![Alt text 2](https://github.com/yangchen1997/WcDT/blob/main/qualitative_results/1_model_output.gif)
+![Alt text 2](qualitative_results/1_model_output.gif)
 
 ## Citation
 
