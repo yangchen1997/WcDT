@@ -114,6 +114,17 @@ task config:
 |  WcDT-64  |  4.872   |  1.962  |
 |  WcDT-128  |  4.563  |  1.669  |
 
+### Qualitative Results
+ground truth:
+![Alt text 1](qualitative_results/0_ground_truth.gif) 
+WcDT-128 result:
+![Alt text 2](qualitative_results/0_model_output.gif)
+
+ground truth:
+![Alt text 1](qualitative_results/1_ground_truth.gif) 
+WcDT-128 result:
+![Alt text 2](qualitative_results/1_model_output.gif)
+
 ## Citation
 
 If you found this repository useful, please consider citing our work:
