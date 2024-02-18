@@ -1,0 +1,55 @@
+task_config:
+  task_list:
+#    - "DATA_PREPROCESS"
+#    - "DATA_SPLIT"
+#    - "DATA_COUNT"
+#    - "TRAIN_MODEL"
+    - "SHOW_RESULTS"
+#    - "EVAL_MODEL"
+#    - "GENE_SUBMISSION"
+  # 程序执行过程中的输出总目录
+  output_dir: "output"
+  log_dir: "log"
+  image_dir: "result_image"
+  model_dir: "model"
+  result_dir: "result"
+  pre_train_model: ""
+  waymo_train_dir: "/home/haomo/yangchen/Scene-Diffusion/data_set/train_set"
+  waymo_val_dir: "/home/haomo/yangchen/Scene-Diffusion/data_set/valid_set"
+  waymo_test_dir: "/home/haomo/yangchen/Scene-Diffusion/data_set/test_set"
+  # 数据预处理和打包的输出总目录
+  data_output: "data_output"
+  data_preprocess_dir: "data_preprocess_dir"
+  train_dir: "train_dir"
+  val_dir: "val_dir"
+  test_dir: "test_dir"
+
+data_preprocess_config:
+  data_size: 100
+  max_data_size: 2000
+  num_works: 20
+
+
+train_model_config:
+  use_gpu: False
+  gpu_ids:
+    - 6
+    - 7
+  batch_size: 4
+  num_works: 0
+  his_step: 11
+  max_pred_num: 8
+  max_other_num: 6
+  max_traffic_light: 8
+  max_lane_num: 32
+  max_point_num: 128
+  num_head: 8
+  attention_dim: 128
+  multimodal: 10
+  time_steps: 50
+  # cosine or linear
+  schedule: "linear"
+  num_epoch: 200
+  init_lr: 0.0001
+
+
