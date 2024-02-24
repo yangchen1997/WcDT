@@ -3,8 +3,8 @@ task_config:
 #    - "DATA_PREPROCESS"
 #    - "DATA_SPLIT"
 #    - "DATA_COUNT"
-#    - "TRAIN_MODEL"
-    - "SHOW_RESULTS"
+    - "TRAIN_MODEL"
+#    - "SHOW_RESULTS"
 #    - "EVAL_MODEL"
 #    - "GENE_SUBMISSION"
   # 程序执行过程中的输出总目录

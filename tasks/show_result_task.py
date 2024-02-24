@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@Project: Scene-Diffusion
+@Project: WcDT
 @Name: show_result_task.py
 @Author: YangChen
 @Date: 2024/1/6

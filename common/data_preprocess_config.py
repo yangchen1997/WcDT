@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@Project: Scene-Diffusion
+@Project: WcDT
 @Name: data_preprocess_config.py
 @Author: YangChen
 @Date: 2023/12/24

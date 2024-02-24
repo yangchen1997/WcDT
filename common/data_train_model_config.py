@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-@Project: Scene-Diffusion
+@Project: WcDT
 @Name: train_model_config.py
 @Author: YangChen
 @Date: 2023/12/27
