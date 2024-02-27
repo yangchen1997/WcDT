@@ -115,15 +115,49 @@ task config:
 |  WcDT-128  |  4.563  |  1.669  |
 
 ### Qualitative Results
-ground truth:
-![Alt text 1](qualitative_results/0_ground_truth.gif) 
-WcDT-128 result:
-![Alt text 2](qualitative_results/0_model_output.gif)
 
-ground truth:
-![Alt text 1](qualitative_results/1_ground_truth.gif) 
-WcDT-128 result:
-![Alt text 2](qualitative_results/1_model_output.gif)
+Demos for lane-changing scenarios:
+<table>
+<tr>
+  <td>
+    <p align="center">
+      <img src="qualitative_results/1_ground_truth.gif" alt="First Image" width="100%" />
+      <br>
+      <em>Ground truth</em>
+    </p>
+  </td>
+  <td>
+    <p align="center">
+      <img src="qualitative_results/1_model_output.gif" alt="Second Image" width="100%" />
+      <br>
+      <em>WcDT-128 result</em>
+    </p>
+  </td>
+</tr>
+</table>
+
+
+Demos for more complex turning scenarios:
+<table>
+<tr>
+  <td>
+    <p align="center">
+      <img src="qualitative_results/0_ground_truth.gif" alt="First Image" width="100%" />
+      <br>
+      <em>Ground truth</em>
+    </p>
+  </td>
+  <td>
+    <p align="center">
+      <img src="qualitative_results/0_model_output.gif" alt="Second Image" width="100%" />
+      <br>
+      <em>WcDT-128 result</em>
+    </p>
+  </td>
+</tr>
+</table>
+
+
 
 ## Citation
 
