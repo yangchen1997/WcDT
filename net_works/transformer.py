@@ -56,7 +56,7 @@ class TransformerCrossAttention(nn.Module):
         norm_input_x = self.norm_feed_forward(res_output)
         feed_forward_output = self.feed_forward(norm_input_x)
         norm_input_x = norm_input_x + feed_forward_output
-        return input_x
+        return norm_input_x
 
 
 class TransformerSelfAttention(nn.Module):
