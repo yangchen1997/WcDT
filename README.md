@@ -1,4 +1,4 @@
-# WcDT: World-centric Diffusion Transformer for Traffic Scene Generation
+# WcDT: World-centric Diffusion Transformer Traffic Scene Generation
 
 This repository contains the official implementation of WcDT: World-centric Diffusion Transformer for Traffic Scene Generation
 
