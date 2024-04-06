@@ -1,6 +1,6 @@
 # WcDT: World-centric Diffusion Transformer Traffic Scene Generation
 
-This repository contains the official implementation of WcDT: World-centric Diffusion Transformer for Traffic Scene Generation
+This repository contains the official implementation of WcDT: World-centric Diffusion Transformer for Traffic Scene Generation [[Paper Link](https://arxiv.org/abs/2404.02082)]
 
 ## Gettting Started
 
@@ -157,7 +157,15 @@ Demos for more complex turning scenarios:
 </tr>
 </table>
 
+## Todo List
 
+- [x] Data Statistics
+- [x] Generate Submission
+- [ ] Factorized Attention for  Temporal Features
+- [ ] Graph Attention Mechanisms for Transformer
+- [ ] Lane Loss(FDE Loss + Timestep Weighted Loss)
+- [ ] Scene Label
+- [ ] Upgrade Decoder(Prposed + Refined Trajectory)
 
 ## Citation
 
