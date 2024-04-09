@@ -169,12 +169,15 @@ Demos for more complex turning scenarios:
 
 ## Citation
 
-If you found this repository useful, please consider citing our paper:
+If you found this repository useful, please consider citing our paper:
 
+```bibtex
 @article{yang2024wcdt,
   title={WcDT: World-centric Diffusion Transformer for Traffic Scene Generation},
   author={Yang, Chen and Tian, Aaron Xuxiang and Chen, Dong and Shi, Tianyu and Heydarian, Arsalan},
   journal={arXiv preprint arXiv:2404.02082},
   year={2024}
 }
+```
+
 
