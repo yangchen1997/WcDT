@@ -14,9 +14,9 @@ task_config:
   model_dir: "model"
   result_dir: "result"
   pre_train_model: ""
-  waymo_train_dir: "/home/haomo/yangchen/Scene-Diffusion/data_set/train_set"
-  waymo_val_dir: "/home/haomo/yangchen/Scene-Diffusion/data_set/valid_set"
-  waymo_test_dir: "/home/haomo/yangchen/Scene-Diffusion/data_set/test_set"
+  waymo_train_dir: ""
+  waymo_val_dir: ""
+  waymo_test_dir: ""
   # 数据预处理和打包的输出总目录
   data_output: "data_output"
   data_preprocess_dir: "data_preprocess_dir"
