@@ -4,6 +4,8 @@ This repository contains the official implementation of WcDT: World-cent
 
 ## Gettting Started
 
+First of all, we recommend that you read the description of the [Sim Agents Challenge](https://waymo.com/open/challenges/2024/sim-agents/) and the [Motion Prediction](https://waymo.com/open/data/motion/) dataset on the waymo website.
+
 1. Clone this repository:
 
     git clone https://github.com/yangchen1997/WcDT.git
@@ -12,7 +14,7 @@ This repository contains the official implementation of WcDT: World-cent
 
     conda env create -f environment.yml
 
-3. Download [Waymo Open Dataset](https://console.cloud.google.com/storage/browser/waymo_open_dataset_motion_v_1_2_0?pli=1). After downloading the dataset directory should be organized as follows:
+3. Download [Waymo Open Dataset](https://console.cloud.google.com/storage/browser/waymo_open_dataset_motion_v_1_2_0?pli=1)(Please note: If you are downloading waymo datasets for the first time, you need to click "Download" on the waymo website and register your account).After downloading the dataset directory should be organized as follows:
 
     /path/to/dataset_root/
     ├── train_set/
