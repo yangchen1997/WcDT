@@ -10,8 +10,7 @@ import tensorflow as tf
 import torch
 import tqdm
 from waymo_open_dataset.protos import scenario_pb2
-from waymo_open_dataset.protos import sim_agents_submission_pb2
-from waymo_open_dataset.utils import trajectory_utils
+from waymo_open_dataset.utils.sim_agents import submission_specs
 from waymo_open_dataset.utils.sim_agents import submission_specs
 from waymo_open_dataset.wdl_limited.sim_agents_metrics import metrics
 
