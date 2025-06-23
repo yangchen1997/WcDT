@@ -13,6 +13,7 @@ from waymo_open_dataset.protos import scenario_pb2
 from waymo_open_dataset.utils.sim_agents import submission_specs
 from waymo_open_dataset.utils.sim_agents import submission_specs
 from waymo_open_dataset.wdl_limited.sim_agents_metrics import metrics
+from waymo_open_dataset.utils import trajectory_utils
 
 from nets import (GaussianDiffusion, generate_linear_schedule, SimpleViT, TrajDecorder, MapEncoder)
 
